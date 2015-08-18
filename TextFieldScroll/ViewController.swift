@@ -14,6 +14,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textFieldUsername: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
     @IBOutlet weak var scrollView: UIScrollView!
+    var currentTextField:UITextField?
+    var kbNotification: NSNotification?
+
     
     
     override func viewDidLoad() {
@@ -26,6 +29,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     func textFieldDidBeginEditing(textField: UITextField) {
+        self.currentTextField = textField;
+        
+        if ((self.kbNotification) != nil)
+        {
+            keyboardWillBeHidden(self.kbNotification!)
+        }
+
     }
     
     
@@ -35,17 +45,27 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func keyboardWillBeHidden(notification: NSNotification){
-        
+        self.kbNotification = nil
         self.scrollView.setContentOffset(CGPointMake(0, 0), animated: true)
     }
     
     func keyboardWillBeShown(notification: NSNotification){
-        
+        self.kbNotification = notification
         let userInfo = notification.userInfo!
-    
-        if let kbsize = userInfo[UIKeyboardFrameBeginUserInfoKey]?.CGRectValue().size{
+        
+        if let kbsize = userInfo[UIKeyboardFrameBeginUserInfoKey]?.CGRectValue().size
+        {
+            let contentInsets = UIEdgeInsets(top: 0, left: 0, bottom: kbsize.height, right: 0)
+            let screenSize: CGRect = UIScreen.mainScreen().bounds
+            let screenHeight = screenSize.height
+            let height:CGFloat = screenHeight - (kbsize.height)-(self.currentTextField!.frame.size.width)
             
-             self.scrollView .setContentOffset(CGPointMake(0, kbsize.height), animated: true)
+            if(self.currentTextField!.frame.origin.y >= height )
+            {
+                var scrollPoint: CGPoint  = CGPointMake(0.0, self.currentTextField!.frame.origin.y - (kbsize.height));
+                self.scrollView .setContentOffset(scrollPoint, animated: true)
+            }
+            
         }
     }
 
