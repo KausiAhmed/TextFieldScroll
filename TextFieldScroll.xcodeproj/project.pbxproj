@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33181641B82CA2900553E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33181631B82CA2900553E24 /* AppDelegate.swift */; };
+		D33181661B82CA2900553E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33181651B82CA2900553E24 /* ViewController.swift */; };
+		D33181691B82CA2900553E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33181671B82CA2900553E24 /* Main.storyboard */; };
+		D331816B1B82CA2900553E24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D331816A1B82CA2900553E24 /* Images.xcassets */; };
+		D331816E1B82CA2900553E24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D331816C1B82CA2900553E24 /* LaunchScreen.xib */; };
+		D331817A1B82CA2900553E24 /* TextFieldScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33181791B82CA2900553E24 /* TextFieldScrollTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33181741B82CA2900553E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33181561B82CA2900553E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D331815D1B82CA2900553E24;
+			remoteInfo = TextFieldScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D331815E1B82CA2900553E24 /* TextFieldScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33181621B82CA2900553E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33181631B82CA2900553E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33181651B82CA2900553E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D33181681B82CA2900553E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D331816A1B82CA2900553E24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D331816D1B82CA2900553E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D33181731B82CA2900553E24 /* TextFieldScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33181781B82CA2900553E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33181791B82CA2900553E24 /* TextFieldScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldScrollTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D331815B1B82CA2900553E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33181701B82CA2900553E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33181551B82CA2900553E24 = {
+			isa = PBXGroup;
+			children = (
+				D33181601B82CA2900553E24 /* TextFieldScroll */,
+				D33181761B82CA2900553E24 /* TextFieldScrollTests */,
+				D331815F1B82CA2900553E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D331815F1B82CA2900553E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D331815E1B82CA2900553E24 /* TextFieldScroll.app */,
+				D33181731B82CA2900553E24 /* TextFieldScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33181601B82CA2900553E24 /* TextFieldScroll */ = {
+			isa = PBXGroup;
+			children = (
+				D33181631B82CA2900553E24 /* AppDelegate.swift */,
+				D33181651B82CA2900553E24 /* ViewController.swift */,
+				D33181671B82CA2900553E24 /* Main.storyboard */,
+				D331816A1B82CA2900553E24 /* Images.xcassets */,
+				D331816C1B82CA2900553E24 /* LaunchScreen.xib */,
+				D33181611B82CA2900553E24 /* Supporting Files */,
+			);
+			path = TextFieldScroll;
+			sourceTree = "<group>";
+		};
+		D33181611B82CA2900553E24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D33181621B82CA2900553E24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D33181761B82CA2900553E24 /* TextFieldScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33181791B82CA2900553E24 /* TextFieldScrollTests.swift */,
+				D33181771B82CA2900553E24 /* Supporting Files */,
+			);
+			path = TextFieldScrollTests;
+			sourceTree = "<group>";
+		};
+		D33181771B82CA2900553E24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D33181781B82CA2900553E24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D331815D1B82CA2900553E24 /* TextFieldScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D331817D1B82CA2900553E24 /* Build configuration list for PBXNativeTarget "TextFieldScroll" */;
+			buildPhases = (
+				D331815A1B82CA2900553E24 /* Sources */,
+				D331815B1B82CA2900553E24 /* Frameworks */,
+				D331815C1B82CA2900553E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldScroll;
+			productName = TextFieldScroll;
+			productReference = D331815E1B82CA2900553E24 /* TextFieldScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D33181721B82CA2900553E24 /* TextFieldScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33181801B82CA2900553E24 /* Build configuration list for PBXNativeTarget "TextFieldScrollTests" */;
+			buildPhases = (
+				D331816F1B82CA2900553E24 /* Sources */,
+				D33181701B82CA2900553E24 /* Frameworks */,
+				D33181711B82CA2900553E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33181751B82CA2900553E24 /* PBXTargetDependency */,
+			);
+			name = TextFieldScrollTests;
+			productName = TextFieldScrollTests;
+			productReference = D33181731B82CA2900553E24 /* TextFieldScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33181561B82CA2900553E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					D331815D1B82CA2900553E24 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D33181721B82CA2900553E24 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D331815D1B82CA2900553E24;
+					};
+				};
+			};
+			buildConfigurationList = D33181591B82CA2900553E24 /* Build configuration list for PBXProject "TextFieldScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33181551B82CA2900553E24;
+			productRefGroup = D331815F1B82CA2900553E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D331815D1B82CA2900553E24 /* TextFieldScroll */,
+				D33181721B82CA2900553E24 /* TextFieldScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D331815C1B82CA2900553E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33181691B82CA2900553E24 /* Main.storyboard in Resources */,
+				D331816E1B82CA2900553E24 /* LaunchScreen.xib in Resources */,
+				D331816B1B82CA2900553E24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33181711B82CA2900553E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D331815A1B82CA2900553E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33181661B82CA2900553E24 /* ViewController.swift in Sources */,
+				D33181641B82CA2900553E24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D331816F1B82CA2900553E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D331817A1B82CA2900553E24 /* TextFieldScrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33181751B82CA2900553E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D331815D1B82CA2900553E24 /* TextFieldScroll */;
+			targetProxy = D33181741B82CA2900553E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33181671B82CA2900553E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33181681B82CA2900553E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D331816C1B82CA2900553E24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D331816D1B82CA2900553E24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D331817B1B82CA2900553E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D331817C1B82CA2900553E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D331817E1B82CA2900553E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D331817F1B82CA2900553E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D33181811B82CA2900553E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextFieldScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldScroll.app/TextFieldScroll";
+			};
+			name = Debug;
+		};
+		D33181821B82CA2900553E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextFieldScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldScroll.app/TextFieldScroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33181591B82CA2900553E24 /* Build configuration list for PBXProject "TextFieldScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D331817B1B82CA2900553E24 /* Debug */,
+				D331817C1B82CA2900553E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D331817D1B82CA2900553E24 /* Build configuration list for PBXNativeTarget "TextFieldScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D331817E1B82CA2900553E24 /* Debug */,
+				D331817F1B82CA2900553E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D33181801B82CA2900553E24 /* Build configuration list for PBXNativeTarget "TextFieldScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33181811B82CA2900553E24 /* Debug */,
+				D33181821B82CA2900553E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33181561B82CA2900553E24 /* Project object */;
+}
